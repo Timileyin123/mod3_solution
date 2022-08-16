@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.collapse > ul{
+    display: none;
+}
+.container{
+    margin-top: 2em;
+    background-color: lightgray;
+}
+.navbar-toggler{
+    display: none;
+}
+@media screen and (max-width:766px) {
+    .collapse > ul{
+        display: block;
+    }
+    .navbar-toggler{
+        display: block;
+    }
+}
